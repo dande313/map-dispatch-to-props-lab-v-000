@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { addRestaurant } from '../actions/restaurants';
 import { connect } from 'react-redux';
+import { ConnectedRestaurants } from './Restaurants';
+import { bindActionCreators } from 'redux';
 
 export class RestaurantInput extends Component {
 
